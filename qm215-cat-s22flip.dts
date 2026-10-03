@@ -1,0 +1,12 @@
+/dts-v1/;
+
+/*
+ * Minimal DTBO for booting lk2nd on the Cat S22 Flip.
+ * Matches stock dtbo entry 27 (qcom,board-id = <0x1000b 4>, QRD v1.0 subtype 4)
+ * but carries no fragments, so the stock bootloader has nothing to patch.
+ */
+/ {
+	qcom,board-id = <0x1000b 4>;
+
+	__fixups__ {};
+};

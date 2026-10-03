@@ -13,6 +13,7 @@ Supported devices:
 - Motorola Moto G7 Play (motorola-channel)
 - Oppo Realme 2/C1 (oppo-rmx1805)
 - Vsmart Joy 3 (vsmart-casuarina)
+- Cat S22 Flip (cat-s22flip)
 
 Used for lk2nd and mainline kernel.
 
